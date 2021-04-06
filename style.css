@@ -39,11 +39,11 @@ button:hover {
     text-align: right;
 }
 
-.header--matrixImg {
+.header__matrixImg {
     width: 100%;
 }
 
-.header--info {
+.header__info {
     font-family: fantasy, cursive;
 }
 
@@ -65,7 +65,7 @@ button:hover {
     flex-grow: 1
 }
 
-.section--wrapper {
+.section__wrapper {
     display: flex;
 }
 
@@ -113,7 +113,7 @@ p > button:hover {
 }
 
 /* Task list */
-.section--list-item {
+.section__list-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -156,7 +156,7 @@ li > button.delete:hover {
     transform: rotateZ(0);
 }
 
-.section--item-label {
+.section__item-label {
     text-decoration: line-through;
     color: #888;
 }
@@ -170,6 +170,6 @@ ul li input[type=text] {
     width: 224px;
 }
 
-.section--item-labels {
+.section__item-labels {
     display: none;
 }
